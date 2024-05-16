@@ -26,7 +26,7 @@ const contagemRegressiva =(tempo)=>{
   
   
   const contar =()=>{
-    if(tempo > 0 ){
+    if(tempo === 0 ){
       pararContagem()
       tempoEsgotado.textContent = 'Tempo de inscrição esgotou'
       tempoEsgotado.classList.add('tempoEsgotado')
@@ -39,7 +39,7 @@ const contagemRegressiva =(tempo)=>{
 }
 
 const tempoRestante = ()=>{
-  const dataEvento = new Date('2024-05-16 23:59:00')
+  const dataEvento = new Date('2024-05-16 23:50:00')
   const hoje = Date.now()
   return Math.floor((dataEvento - hoje) / 1000) 
 }
