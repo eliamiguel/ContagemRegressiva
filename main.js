@@ -3,10 +3,10 @@ const tempoEsgotado= document.getElementById('tempoEsgotado')
 const formatarDigito = (digito)=>`0${digito}`.slice(-2)
 
 const atualizar = (tempo)=>{
-  const segundos = document.('segundos')
-  const minutos = document.('minutos')
-  const horas = document.('horas')
-  const dias = document.('dias')
+  const segundos = document.getElementById('segundos')
+  const minutos = document.getElementById('minutos')
+  const horas = document.getElementById('horas')
+  const dias = document.getElementById('dias')
 
 
   const qtdSegundos = tempo % 60;
