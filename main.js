@@ -28,7 +28,7 @@ const contagemRegressiva = (tempo)=>{
   const contar = ()=>{
       if(tempo < 0){
           pararContagem()
-          mensagem.innerHTML='tempo de inscrição esgotado'
+          mensagem.innerHTML='Tempo de inscrição esgotado'
       }else{
           atualizar(tempo)
           tempo--
